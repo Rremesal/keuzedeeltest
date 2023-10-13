@@ -1,7 +1,7 @@
 const f = require('./index');
 
 function test() {
-    if (f.calculate(10, '+', 15) === 15) {
+    if (f.calculate(10, '+', 15) === 25) {
         return true;
     }
     return false;
