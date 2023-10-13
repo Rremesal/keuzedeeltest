@@ -18,3 +18,5 @@ function calculate(x, operator ,y) {
     
     return result
 }
+
+module.exports.calculate = calculate;
