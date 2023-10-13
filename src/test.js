@@ -1,7 +1,7 @@
-import { calculate } from ".";
+const f = require('./index');
 
 function test() {
-    if (calculate(10, '+', 15) === 15) {
+    if (f.calculate(10, '+', 15) === 15) {
         return true;
     }
     return false;
