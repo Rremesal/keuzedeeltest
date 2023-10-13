@@ -11,7 +11,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: testing calculating with the '+' operator
+      - name: going into the right directory
         run: cd src
+      - name: running the test file
         run: npm test
         
