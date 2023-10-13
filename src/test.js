@@ -5,3 +5,5 @@ function test() {
     }
     return false;
 }
+
+console.log(test())
