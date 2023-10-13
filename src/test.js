@@ -1,3 +1,4 @@
+import { calculate } from ".";
 
 function test() {
     if (calculate(10, '+', 15) === 15) {
