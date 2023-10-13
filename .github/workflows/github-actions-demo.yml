@@ -5,11 +5,13 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - name: Looking up repo
+          uses: actions/checkout@v4
+      - name: Setting up NodeJs
+          uses: actions/setup-node@v3
         with:
           node-version: 18
-      # - run: npm ci
-      - run: cd src
-      - run: npm test
+      - name: testing calculating with the '+' operator
+        run: cd src
+        run: npm test
         
