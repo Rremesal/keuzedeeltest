@@ -1,4 +1,4 @@
-export function calculate(x, operator ,y) {
+function calculate(x, operator ,y) {
 
     let result = 0;
 
